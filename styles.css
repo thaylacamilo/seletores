@@ -1,0 +1,36 @@
+.container {
+  background: white;
+  display: inline-block;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 80px);
+  grid-template-rows: repeat(5, 80px);
+  grid-gap: 1px;
+}
+.cell-red-corner {
+   /* center the cell content */
+  display: flex;
+  background: red;
+  border: 2px solid black;
+}
+.cell-red {
+   /* center the cell content */
+  display: flex;
+  background: red;
+}
+.cell-blue {
+   /* center the cell content */
+  display: flex;
+  background: blue;
+}
+.cell-yellow {
+   /* center the cell content */
+  display: flex;
+  background: yellow;
+}
+.cell-green {
+   /* center the cell content */
+  display: flex;
+  background: green;
+}
